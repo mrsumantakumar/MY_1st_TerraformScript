@@ -1,0 +1,10 @@
+.terraform/
+terraform.tfstate.d
+*.tffstate.backup
+*.tffstate
+terraform.tfstate.backups
+terraform.tfstate
+terraform.tfstate.backup
+mdules/
+providers*/
+environment
