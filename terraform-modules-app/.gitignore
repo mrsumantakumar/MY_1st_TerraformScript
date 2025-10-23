@@ -1,0 +1,8 @@
+# This file is maintained automatically by "terraform init".
+*key-ec2
+*.pub
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+terra-key-ec2
+terra-key-ec2.pub

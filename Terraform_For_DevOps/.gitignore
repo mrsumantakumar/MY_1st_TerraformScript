@@ -1,0 +1,31 @@
+# Terraform state and local dirs
+.terraform/
+*.tfstate
+*.tfstate.backup
+terraform.tfstate
+*terraform.tfstate.backup
+terraform.tfstate.d/
+*.tfplan
+crash.log
+
+# Override and local-only files
+override.tf
+override.tf.json
+*.tfvars
+*.tfvars.json
+
+# Sensitive keys (do NOT commit private keys)
+terra-key-ec2
+*.pem
+*.key
+terra-key-ec2.pub
+terra-key-ec2
+
+# Editor/OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+terraform.tfstate.1760801334.backup
+Terraform_For_DevOps.code-workspace
